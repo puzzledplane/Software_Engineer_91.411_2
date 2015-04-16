@@ -1,0 +1,13 @@
+<!---*- xml -*- -->
+
+<launch>
+    <node name="AccelerometerSim"
+	  pkg="sensor_node"
+	  type="AccelerometerSim"
+	  required="true"
+	  output="screen" />
+    <node name="MagnetometerSim"
+	  pkg="sensor_node"
+	  type="MagnetometerSim"
+	  required="true"
+	  output="screen" />

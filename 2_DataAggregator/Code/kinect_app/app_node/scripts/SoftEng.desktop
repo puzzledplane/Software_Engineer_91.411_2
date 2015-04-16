@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SoftEng
+Type=Application
+#Exec=/home/james/se_ws/src/sensor-admin/sensor_admin_NB/dist/Debug/GNU-Linux-x86/sensor_admin_NB
+Terminal=false
+#Icon=/home/james/se_ws/src/sensor-admin/sensor_admin_NB/se_logo.xpm
+Comment=Application for Software Engineering I class
+NoDisplay=false
+Categories=Applications;Apps;
+Name[en]=SoftEng
+X-Desktop-File-Install-Version=0.22

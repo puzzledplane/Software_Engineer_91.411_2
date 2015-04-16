@@ -1,0 +1,11 @@
+<launch>
+    <node name="recognizer"
+	  pkg="pocketsphinx"
+	  type="recognizer.py"
+	  output="screen">
+    	  <param name="lm"
+	   	 value="$(find speech_node)/config/TAR0266/0266.lm"/>
+    	  <param name="dict"
+	   	 value="$(find speech_node)/config/TAR0266/0266.dic"/>
+    </node>
+</launch>

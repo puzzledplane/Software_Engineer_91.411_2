@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="CMakeFiles">
+        <df name="2.8.12.2">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <df name="main.dir">
+          <df name="src">
+          </df>
+        </df>
+        <df name="main_automoc.dir">
+        </df>
+      </df>
+      <df name="doc">
+      </df>
+      <df name="qss">
+      </df>
+      <df name="src">
+        <in>AddDeviceGui.cpp</in>
+        <in>AddDeviceGui.h</in>
+        <in>AddUserGui.cpp</in>
+        <in>AddUserGui.h</in>
+        <in>AppStyles.h</in>
+        <in>AppStyles.tcc</in>
+        <in>CenterGui.cpp</in>
+        <in>CenterGui.h</in>
+        <in>Coder.cpp</in>
+        <in>Coder.h</in>
+        <in>Device.cpp</in>
+        <in>Device.h</in>
+        <in>DeviceAbstractGui.cpp</in>
+        <in>DeviceAbstractGui.h</in>
+        <in>DevicesGui.cpp</in>
+        <in>DevicesGui.h</in>
+        <in>HelpGui.cpp</in>
+        <in>HelpGui.h</in>
+        <in>HistoryGui.cpp</in>
+        <in>HistoryGui.h</in>
+        <in>JsonParser.cpp</in>
+        <in>JsonParser.h</in>
+        <in>LocalDBMaster.cpp</in>
+        <in>LocalDBMaster.h</in>
+        <in>LoginGui.cpp</in>
+        <in>LoginGui.h</in>
+        <in>MasterGui.cpp</in>
+        <in>MasterGui.h</in>
+        <in>Menu.cpp</in>
+        <in>Menu.h</in>
+        <in>ModifyDeviceGui.cpp</in>
+        <in>ModifyDeviceGui.h</in>
+        <in>ModifyUserGui.cpp</in>
+        <in>ModifyUserGui.h</in>
+        <in>OpeningGui.cpp</in>
+        <in>OpeningGui.h</in>
+        <in>ResultsGui.cpp</in>
+        <in>ResultsGui.h</in>
+        <in>SplashGui.cpp</in>
+        <in>SplashGui.h</in>
+        <in>User.cpp</in>
+        <in>User.h</in>
+        <in>UserAbstractGui.cpp</in>
+        <in>UserAbstractGui.h</in>
+        <in>UsersGui.cpp</in>
+        <in>UsersGui.h</in>
+        <in>VideoGui.cpp</in>
+        <in>VideoGui.h</in>
+        <in>ViewUserGui.cpp</in>
+        <in>ViewUserGui.h</in>
+        <in>XmlParser.cpp</in>
+        <in>XmlParser.h</in>
+        <in>main.cpp</in>
+      </df>
+      <in>main_automoc.cpp</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,2 @@
+/home/james/se_ws/src/sensor_admin/sensor_admin_NB/CMakeFiles/main.dir
+/home/james/se_ws/src/sensor_admin/sensor_admin_NB/CMakeFiles/main_automoc.dir

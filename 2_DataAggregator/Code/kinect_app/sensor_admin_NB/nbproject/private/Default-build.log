@@ -1,0 +1,54 @@
+Scanning dependencies of target main_automoc
+[  4%] Automoc for target main
+Generating moc_AddDeviceGui.cpp
+Generating moc_AddUserGui.cpp
+Generating moc_CenterGui.cpp
+Generating moc_DeviceAbstractGui.cpp
+Generating moc_DevicesGui.cpp
+Generating moc_HelpGui.cpp
+Generating moc_HistoryGui.cpp
+Generating moc_LoginGui.cpp
+Generating moc_MasterGui.cpp
+Generating moc_Menu.cpp
+Generating moc_ModifyDeviceGui.cpp
+Generating moc_ModifyUserGui.cpp
+Generating moc_OpeningGui.cpp
+Generating moc_ResultsGui.cpp
+Generating moc_SplashGui.cpp
+Generating moc_UserAbstractGui.cpp
+Generating moc_UsersGui.cpp
+Generating moc_VideoGui.cpp
+Generating moc_ViewUserGui.cpp
+[  4%] Built target main_automoc
+Scanning dependencies of target main
+[  9%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 13%] Building CXX object CMakeFiles/main.dir/src/AddDeviceGui.cpp.o
+[ 18%] Building CXX object CMakeFiles/main.dir/src/AddUserGui.cpp.o
+[ 22%] Building CXX object CMakeFiles/main.dir/src/CenterGui.cpp.o
+[ 27%] Building CXX object CMakeFiles/main.dir/src/DeviceAbstractGui.cpp.o
+[ 31%] Building CXX object CMakeFiles/main.dir/src/DevicesGui.cpp.o
+[ 36%] Building CXX object CMakeFiles/main.dir/src/HelpGui.cpp.o
+[ 40%] Building CXX object CMakeFiles/main.dir/src/HistoryGui.cpp.o
+[ 45%] Building CXX object CMakeFiles/main.dir/src/LoginGui.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/MasterGui.cpp.o
+[ 54%] Building CXX object CMakeFiles/main.dir/src/Menu.cpp.o
+[ 59%] Building CXX object CMakeFiles/main.dir/src/ModifyDeviceGui.cpp.o
+[ 63%] Building CXX object CMakeFiles/main.dir/src/ModifyUserGui.cpp.o
+[ 68%] Building CXX object CMakeFiles/main.dir/src/OpeningGui.cpp.o
+[ 72%] Building CXX object CMakeFiles/main.dir/src/ResultsGui.cpp.o
+[ 77%] Building CXX object CMakeFiles/main.dir/src/SplashGui.cpp.o
+[ 81%] Building CXX object CMakeFiles/main.dir/src/UserAbstractGui.cpp.o
+[ 86%] Building CXX object CMakeFiles/main.dir/src/UsersGui.cpp.o
+[ 90%] Building CXX object CMakeFiles/main.dir/src/VideoGui.cpp.o
+[ 95%] Building CXX object CMakeFiles/main.dir/src/ViewUserGui.cpp.o
+[100%] Building CXX object CMakeFiles/main.dir/main_automoc.cpp.o
+Linking CXX executable main
+CMakeFiles/main.dir/src/main.cpp.o: In function `main':
+/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/main.cpp:35: undefined reference to `LocalDBMaster::LocalDBMaster()'
+/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/main.cpp:36: undefined reference to `LocalDBMaster::connectDB()'
+/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/main.cpp:35: undefined reference to `LocalDBMaster::~LocalDBMaster()'
+/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/main.cpp:35: undefined reference to `LocalDBMaster::~LocalDBMaster()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [main] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

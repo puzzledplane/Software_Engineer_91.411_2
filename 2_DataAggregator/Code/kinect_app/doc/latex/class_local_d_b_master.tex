@@ -1,0 +1,238 @@
+\hypertarget{class_local_d_b_master}{\section{Local\-D\-B\-Master Class Reference}
+\label{class_local_d_b_master}\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}}
+}
+
+
+{\ttfamily \#include $<$Local\-D\-B\-Master.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_local_d_b_master_ae5ca04f3651d2ff44b4d4498ad21fa06}{Local\-D\-B\-Master} ()
+\item 
+void \hyperlink{class_local_d_b_master_a171c28661abfccd29368ae18c5f62324}{connect\-D\-B} ()
+\item 
+void \hyperlink{class_local_d_b_master_a698874fef10d3b03b134c3b38e1320d8}{write\-User} (Q\-Variant\-Map $\ast$variant)
+\item 
+Q\-Variant\-Map $\ast$ \hyperlink{class_local_d_b_master_ae86b115e0ba95965a70a86c576e47119}{read\-User} (int index)
+\item 
+void \hyperlink{class_local_d_b_master_a6745eabb2135a6fdabef9d78e94976ee}{write\-Device} (Q\-Variant\-Map $\ast$variant)
+\item 
+Q\-Variant\-Map $\ast$ \hyperlink{class_local_d_b_master_a02c60b1e0e51c5e7b261107f4afaa14d}{read\-Device} (int index)
+\item 
+void \hyperlink{class_local_d_b_master_a3d4d74f6f85b994ab9e1affd5569c8eb}{disconnect\-D\-B} ()
+\item 
+\hyperlink{class_local_d_b_master_a934799106b1198aed0c1f0c7d506803c}{$\sim$\-Local\-D\-B\-Master} ()
+\item 
+\hyperlink{class_local_d_b_master_ae5ca04f3651d2ff44b4d4498ad21fa06}{Local\-D\-B\-Master} ()
+\item 
+void \hyperlink{class_local_d_b_master_a171c28661abfccd29368ae18c5f62324}{connect\-D\-B} ()
+\item 
+void \hyperlink{class_local_d_b_master_a698874fef10d3b03b134c3b38e1320d8}{write\-User} (Q\-Variant\-Map $\ast$variant)
+\item 
+Q\-Variant\-Map $\ast$ \hyperlink{class_local_d_b_master_acc3baf78009a0a3475b98fb3ebb3b098}{read\-User} (int index)
+\item 
+void \hyperlink{class_local_d_b_master_a6745eabb2135a6fdabef9d78e94976ee}{write\-Device} (Q\-Variant\-Map $\ast$variant)
+\item 
+Q\-Variant\-Map $\ast$ \hyperlink{class_local_d_b_master_abea9c0b1cd48018ff88e3a6c66c86979}{read\-Device} (int index)
+\item 
+void \hyperlink{class_local_d_b_master_a3d4d74f6f85b994ab9e1affd5569c8eb}{disconnect\-D\-B} ()
+\item 
+\hyperlink{class_local_d_b_master_a934799106b1198aed0c1f0c7d506803c}{$\sim$\-Local\-D\-B\-Master} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sqlite3 $\ast$ \hyperlink{class_local_d_b_master_a487edf3627d687bcb41fe135a8e8a322}{db}
+\item 
+bool \hyperlink{class_local_d_b_master_ad32223fcc415e725ba98d63ff05af804}{connection\-Failed}
+\item 
+Serializer $\ast$ \hyperlink{class_local_d_b_master_a74986c5c4a8d5d33ab00719824589ce0}{serializer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file Local\-D\-B\-Master.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_local_d_b_master_ae5ca04f3651d2ff44b4d4498ad21fa06}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!Local\-D\-B\-Master@{Local\-D\-B\-Master}}
+\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{Local\-D\-B\-Master}]{\setlength{\rightskip}{0pt plus 5cm}Local\-D\-B\-Master\-::\-Local\-D\-B\-Master (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_ae5ca04f3651d2ff44b4d4498ad21fa06}
+
+
+Definition at line 4 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_a934799106b1198aed0c1f0c7d506803c}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!$\sim$\-Local\-D\-B\-Master@{$\sim$\-Local\-D\-B\-Master}}
+\index{$\sim$\-Local\-D\-B\-Master@{$\sim$\-Local\-D\-B\-Master}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{$\sim$\-Local\-D\-B\-Master}]{\setlength{\rightskip}{0pt plus 5cm}Local\-D\-B\-Master\-::$\sim$\-Local\-D\-B\-Master (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a934799106b1198aed0c1f0c7d506803c}
+
+
+Definition at line 64 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_ae5ca04f3651d2ff44b4d4498ad21fa06}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!Local\-D\-B\-Master@{Local\-D\-B\-Master}}
+\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{Local\-D\-B\-Master}]{\setlength{\rightskip}{0pt plus 5cm}Local\-D\-B\-Master\-::\-Local\-D\-B\-Master (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_ae5ca04f3651d2ff44b4d4498ad21fa06}
+\hypertarget{class_local_d_b_master_a934799106b1198aed0c1f0c7d506803c}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!$\sim$\-Local\-D\-B\-Master@{$\sim$\-Local\-D\-B\-Master}}
+\index{$\sim$\-Local\-D\-B\-Master@{$\sim$\-Local\-D\-B\-Master}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{$\sim$\-Local\-D\-B\-Master}]{\setlength{\rightskip}{0pt plus 5cm}Local\-D\-B\-Master\-::$\sim$\-Local\-D\-B\-Master (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a934799106b1198aed0c1f0c7d506803c}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_local_d_b_master_a171c28661abfccd29368ae18c5f62324}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!connect\-D\-B@{connect\-D\-B}}
+\index{connect\-D\-B@{connect\-D\-B}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{connect\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::connect\-D\-B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a171c28661abfccd29368ae18c5f62324}
+
+
+Definition at line 10 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_a171c28661abfccd29368ae18c5f62324}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!connect\-D\-B@{connect\-D\-B}}
+\index{connect\-D\-B@{connect\-D\-B}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{connect\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::connect\-D\-B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a171c28661abfccd29368ae18c5f62324}
+\hypertarget{class_local_d_b_master_a3d4d74f6f85b994ab9e1affd5569c8eb}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!disconnect\-D\-B@{disconnect\-D\-B}}
+\index{disconnect\-D\-B@{disconnect\-D\-B}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{disconnect\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::disconnect\-D\-B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a3d4d74f6f85b994ab9e1affd5569c8eb}
+\hypertarget{class_local_d_b_master_a3d4d74f6f85b994ab9e1affd5569c8eb}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!disconnect\-D\-B@{disconnect\-D\-B}}
+\index{disconnect\-D\-B@{disconnect\-D\-B}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{disconnect\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::disconnect\-D\-B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a3d4d74f6f85b994ab9e1affd5569c8eb}
+
+
+Definition at line 58 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_a02c60b1e0e51c5e7b261107f4afaa14d}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!read\-Device@{read\-Device}}
+\index{read\-Device@{read\-Device}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{read\-Device}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Variant\-Map $\ast$ Local\-D\-B\-Master\-::read\-Device (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a02c60b1e0e51c5e7b261107f4afaa14d}
+
+
+Definition at line 52 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_abea9c0b1cd48018ff88e3a6c66c86979}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!read\-Device@{read\-Device}}
+\index{read\-Device@{read\-Device}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{read\-Device}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Variant\-Map$\ast$ Local\-D\-B\-Master\-::read\-Device (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_abea9c0b1cd48018ff88e3a6c66c86979}
+\hypertarget{class_local_d_b_master_acc3baf78009a0a3475b98fb3ebb3b098}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!read\-User@{read\-User}}
+\index{read\-User@{read\-User}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{read\-User}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Variant\-Map$\ast$ Local\-D\-B\-Master\-::read\-User (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_acc3baf78009a0a3475b98fb3ebb3b098}
+\hypertarget{class_local_d_b_master_ae86b115e0ba95965a70a86c576e47119}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!read\-User@{read\-User}}
+\index{read\-User@{read\-User}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{read\-User}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Variant\-Map $\ast$ Local\-D\-B\-Master\-::read\-User (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_ae86b115e0ba95965a70a86c576e47119}
+
+
+Definition at line 40 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_a6745eabb2135a6fdabef9d78e94976ee}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!write\-Device@{write\-Device}}
+\index{write\-Device@{write\-Device}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{write\-Device}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::write\-Device (
+\begin{DoxyParamCaption}
+\item[{Q\-Variant\-Map $\ast$}]{variant}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a6745eabb2135a6fdabef9d78e94976ee}
+
+
+Definition at line 46 of file Local\-D\-B\-Master.\-cpp.
+
+\hypertarget{class_local_d_b_master_a6745eabb2135a6fdabef9d78e94976ee}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!write\-Device@{write\-Device}}
+\index{write\-Device@{write\-Device}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{write\-Device}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::write\-Device (
+\begin{DoxyParamCaption}
+\item[{Q\-Variant\-Map $\ast$}]{variant}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a6745eabb2135a6fdabef9d78e94976ee}
+\hypertarget{class_local_d_b_master_a698874fef10d3b03b134c3b38e1320d8}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!write\-User@{write\-User}}
+\index{write\-User@{write\-User}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{write\-User}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::write\-User (
+\begin{DoxyParamCaption}
+\item[{Q\-Variant\-Map $\ast$}]{variant}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a698874fef10d3b03b134c3b38e1320d8}
+\hypertarget{class_local_d_b_master_a698874fef10d3b03b134c3b38e1320d8}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!write\-User@{write\-User}}
+\index{write\-User@{write\-User}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{write\-User}]{\setlength{\rightskip}{0pt plus 5cm}void Local\-D\-B\-Master\-::write\-User (
+\begin{DoxyParamCaption}
+\item[{Q\-Variant\-Map $\ast$}]{variant}
+\end{DoxyParamCaption}
+)}}\label{class_local_d_b_master_a698874fef10d3b03b134c3b38e1320d8}
+
+
+Definition at line 27 of file Local\-D\-B\-Master.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_local_d_b_master_ad32223fcc415e725ba98d63ff05af804}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!connection\-Failed@{connection\-Failed}}
+\index{connection\-Failed@{connection\-Failed}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{connection\-Failed}]{\setlength{\rightskip}{0pt plus 5cm}bool Local\-D\-B\-Master\-::connection\-Failed\hspace{0.3cm}{\ttfamily [private]}}}\label{class_local_d_b_master_ad32223fcc415e725ba98d63ff05af804}
+
+
+Definition at line 37 of file Local\-D\-B\-Master.\-h.
+
+\hypertarget{class_local_d_b_master_a487edf3627d687bcb41fe135a8e8a322}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!db@{db}}
+\index{db@{db}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{db}]{\setlength{\rightskip}{0pt plus 5cm}sqlite3 $\ast$ Local\-D\-B\-Master\-::db\hspace{0.3cm}{\ttfamily [private]}}}\label{class_local_d_b_master_a487edf3627d687bcb41fe135a8e8a322}
+
+
+Definition at line 36 of file Local\-D\-B\-Master.\-h.
+
+\hypertarget{class_local_d_b_master_a74986c5c4a8d5d33ab00719824589ce0}{\index{Local\-D\-B\-Master@{Local\-D\-B\-Master}!serializer@{serializer}}
+\index{serializer@{serializer}!LocalDBMaster@{Local\-D\-B\-Master}}
+\subsubsection[{serializer}]{\setlength{\rightskip}{0pt plus 5cm}Serializer $\ast$ Local\-D\-B\-Master\-::serializer\hspace{0.3cm}{\ttfamily [private]}}}\label{class_local_d_b_master_a74986c5c4a8d5d33ab00719824589ce0}
+
+
+Definition at line 39 of file Local\-D\-B\-Master.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/james/se\-\_\-ws/src/sensor\-\_\-admin/app\-\_\-node/src/\hyperlink{app__node_2src_2_local_d_b_master_8h}{Local\-D\-B\-Master.\-h}\item 
+/home/james/se\-\_\-ws/src/sensor\-\_\-admin/app\-\_\-node/src/\hyperlink{app__node_2src_2_local_d_b_master_8cpp}{Local\-D\-B\-Master.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,73 @@
+Language model created by QuickLM on Thu Oct 30 11:29:27 EDT 2014
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=19
+ngram 3=15
+
+\1-grams:
+-1.0000 </s> -0.3010
+-1.0000 <s> -0.2553
+-1.6990 ACTIVATION -0.2923
+-1.6990 ALL -0.2923
+-1.6990 BEGIN -0.2833
+-1.3979 DETECTION -0.2553
+-1.6990 END -0.2833
+-1.6990 INITIATE -0.2923
+-1.6990 LEADER -0.2553
+-1.6990 ME -0.2923
+-1.6990 PROCESSES -0.2553
+-1.6990 SEQUENCE -0.2553
+-1.6990 TAKE -0.2923
+-1.6990 TERMINATE -0.2923
+-1.6990 TO -0.2923
+-1.6990 YOUR -0.2923
+
+\2-grams:
+-1.0000 <s> BEGIN 0.0000
+-1.0000 <s> END 0.0000
+-1.0000 <s> INITIATE 0.0000
+-1.0000 <s> TAKE 0.0000
+-1.0000 <s> TERMINATE 0.0000
+-0.3010 ACTIVATION SEQUENCE 0.0000
+-0.3010 ALL PROCESSES 0.0000
+-0.3010 BEGIN DETECTION 0.0000
+-0.3010 DETECTION </s> -0.3010
+-0.3010 END DETECTION 0.0000
+-0.3010 INITIATE ACTIVATION 0.0000
+-0.3010 LEADER </s> -0.3010
+-0.3010 ME TO 0.0000
+-0.3010 PROCESSES </s> -0.3010
+-0.3010 SEQUENCE </s> -0.3010
+-0.3010 TAKE ME 0.0000
+-0.3010 TERMINATE ALL 0.0000
+-0.3010 TO YOUR 0.0000
+-0.3010 YOUR LEADER 0.0000
+
+\3-grams:
+-0.3010 <s> BEGIN DETECTION
+-0.3010 <s> END DETECTION
+-0.3010 <s> INITIATE ACTIVATION
+-0.3010 <s> TAKE ME
+-0.3010 <s> TERMINATE ALL
+-0.3010 ACTIVATION SEQUENCE </s>
+-0.3010 ALL PROCESSES </s>
+-0.3010 BEGIN DETECTION </s>
+-0.3010 END DETECTION </s>
+-0.3010 INITIATE ACTIVATION SEQUENCE
+-0.3010 ME TO YOUR
+-0.3010 TAKE ME TO
+-0.3010 TERMINATE ALL PROCESSES
+-0.3010 TO YOUR LEADER
+-0.3010 YOUR LEADER </s>
+
+\end\

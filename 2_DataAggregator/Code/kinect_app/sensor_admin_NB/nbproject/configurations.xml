@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>AddDeviceGui.cpp</in>
+        <in>AddUserGui.cpp</in>
+        <in>CenterGui.cpp</in>
+        <in>DeviceAbstractGui.cpp</in>
+        <in>DevicesGui.cpp</in>
+        <in>HelpGui.cpp</in>
+        <in>HistoryGui.cpp</in>
+        <in>LoginGui.cpp</in>
+        <in>MasterGui.cpp</in>
+        <in>Menu.cpp</in>
+        <in>ModifyDeviceGui.cpp</in>
+        <in>ModifyUserGui.cpp</in>
+        <in>OpeningGui.cpp</in>
+        <in>ResultsGui.cpp</in>
+        <in>SplashGui.cpp</in>
+        <in>UserAbstractGui.cpp</in>
+        <in>UsersGui.cpp</in>
+        <in>VideoGui.cpp</in>
+        <in>ViewUserGui.cpp</in>
+        <in>main.cpp</in>
+      </df>
+      <in>main_automoc.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>main</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/include/qt4</pElem>
+              <pElem>/usr/include/qt4/QtOpenGL</pElem>
+              <pElem>/usr/include/qt4/QtGui</pElem>
+              <pElem>/usr/include/qt4/QtXml</pElem>
+              <pElem>/usr/include/qt4/QtSql</pElem>
+              <pElem>/usr/include/qt4/QtCore</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>QT_CORE_LIB</Elem>
+              <Elem>QT_DEBUG</Elem>
+              <Elem>QT_GUI_LIB</Elem>
+              <Elem>QT_OPENGL_LIB</Elem>
+              <Elem>QT_SQL_LIB</Elem>
+              <Elem>QT_XML_LIB</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <folder path="0/src">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="main_automoc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AddDeviceGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AddUserGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CenterGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/DeviceAbstractGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/DevicesGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/HelpGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/HistoryGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/LoginGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MasterGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ModifyDeviceGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ModifyUserGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/OpeningGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ResultsGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/SplashGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/UserAbstractGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/UsersGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/VideoGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ViewUserGui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
