@@ -203,7 +203,7 @@ rosrun sensor_node MagnetometerSim
 <!--links-->
 
 [1]: http://ros.org/
-[2]: https://github.com/DeepBlue14/sensor_admin/blob/master/Install.md
+[2]: https://github.com/DeepBlue14/Software_Engineer_91.411_2/blob/master/2_DataAggregator/Code/kinect_app/app_node/scripts/Install.bash
 [3]: http://qt-project.org/
 [4]: http://www.boost.org/
 [5]: http://www.ubuntu.com/
