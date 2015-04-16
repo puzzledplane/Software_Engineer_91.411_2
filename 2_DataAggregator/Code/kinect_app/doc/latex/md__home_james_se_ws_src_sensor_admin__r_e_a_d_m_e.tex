@@ -1,0 +1,101 @@
+
+
+{\itshape Authors}\-: James Kuczynski, \href{mailto:James_Kuczynski@student.uml.edu}{\tt James\-\_\-\-Kuczynski@student.\-uml.\-edu} Michael Forsyth, \href{mailto:Michael_Forsyth@student.uml.edu}{\tt Michael\-\_\-\-Forsyth@student.\-uml.\-edu} Nicholas Forsyth, \href{mailto:Nicholas_Forsyth@student.uml.edu}{\tt Nicholas\-\_\-\-Forsyth@student.\-uml.\-edu} Neel Tripathi, \href{mailto:Neel_Tripathi@student.uml.edu}{\tt Neel\-\_\-\-Tripathi@student.\-uml.\-edu} Robert Vecchione, \href{mailto:Robert_Vecchione@student.uml.edu}{\tt Robert\-\_\-\-Vecchione@student.\-uml.\-edu}
+
+\paragraph*{$\ast$$\ast$\-Index$\ast$$\ast$}
+
+
+\begin{DoxyItemize}
+\item Project Synopsis
+\item Dependencies
+\item Installation (Linux/\-R\-O\-S Version)
+\item Build \& Run\-: G\-U\-I Frontend--I\-D\-Es
+\item Build \& Run\-: Entire Project
+\item Build \& Run\-: Execution
+\end{DoxyItemize}
+
+\paragraph*{$\ast$$\ast$\-Project Synopsis$\ast$$\ast$}
+
+Robotic sensor administration application interface framework. The final goal of this project is to create a \href{http://ros.org/}{\tt R\-O\-S}-\/based system to allow interactive communication between a sensor device and a cloud. It is being developed for \href{http://www.ubuntu.com/}{\tt Ubuntu} 12.\-04-\/15.\-04, although it should run on other U\-N\-I\-X/\-Linux-\/based systems. This package also includes basic simulated T\-C\-P/\-I\-P message topics for imu (accelerometer), compass, image, and pointcloud types. {\bfseries Warning\-: This project is currently in a Beta phase. Expected completion date is May 4 2015.} {\bfseries Warning\-: Installer scripts have not yet been fully tested. Since they make modifications on an operating systems level, we do not advice using them at this point.}
+
+\paragraph*{$\ast$$\ast$\-Dependencies$\ast$$\ast$}
+
+
+\begin{DoxyItemize}
+\item \href{http://www.ubuntu.com/}{\tt Ubuntu} 12.\-04-\/15.\-04
+\item \href{http://ros.org/}{\tt R\-O\-S} hydro or later (catkin)
+\item \href{http://qt-project.org/}{\tt Q\-T4} Project
+\item \href{http://www.libqglviewer.com/}{\tt Q\-G\-L\-Viewer}
+\item \href{http://qjson.sourceforge.net/}{\tt Q\-Json}
+\item \href{http://www.boost.org/}{\tt Boost}
+\item \href{https://sqlite.org/}{\tt S\-Q\-Lite} Database
+\end{DoxyItemize}
+
+\paragraph*{$\ast$$\ast$\-Installation (Linux/\-R\-O\-S Version)$\ast$$\ast$}
+
+Follow the instructions for installing \href{http://ros.org/}{\tt R\-O\-S}. It is strongly advised to choose the {\ttfamily ros-\/$<$version$>$-\/desktop-\/full} option to install all necessary R\-O\-S packages. {\itshape Note\-: This step is not necessary for running the {\bfseries frontend} or {\bfseries prototype}.}
+
+Install additional packages via ros\-: ``` sudo apt-\/get install ros-\/indigo-\/sound$\ast$ sudo apt-\/get install ros-\/indigo-\/pocketsphinx ```
+
+Install pocketsphinx dependency\-: ``` sudo apt-\/get install gstreamer0.\-10-\/gconf ```
+
+Install the \href{http://www.boost.org/}{\tt Boost} C++ libraries\-: ``` sudo apt-\/get install libboost-\/all-\/dev ```
+
+Install \href{http://qt-project.org/}{\tt Q\-T4}\-: ``` sudo apt-\/get install libqt4-\/$\ast$ ```
+
+Install \href{http://www.libqglviewer.com/}{\tt Q\-G\-L\-Viewer}\-: ``` sudo apt-\/get install libqglviewer2 libqglviewer-\/dev ```
+
+Now you must make some modifications so it can be compiled with C\-Make\-: {\ttfamily sudo vim /usr/include/\-Q\-G\-L\-Viewer/vec.h}. Now change {\ttfamily \#include $<$Q\-Dom\-Element$>$} to {\ttfamily \#include $<$Qt\-Xml/\-Q\-Dom\-Element$>$}. Then save and quit. Next, run {\ttfamily sudo vim /usr/include/\-Q\-G\-L\-Viewer/config.h}. Change {\ttfamily \#include $<$Q\-G\-L\-Widget$>$} to {\ttfamily \#include $<$Qt\-Open\-G\-L/\-Q\-G\-L\-Widget$>$}.
+
+Install \href{http://qjson.sourceforge.net/}{\tt Q\-Json} ``` sudo apt-\/get install libqjson0 libqjson-\/$\ast$ ```
+
+Install \href{https://sqlite.org/}{\tt S\-Q\-Lite} ``` sudo apt-\/get install sqlite3 libsqlite3-\/dev ```
+
+\paragraph*{$\ast$$\ast$\-Build \& Run$\ast$$\ast$}
+
+\subparagraph*{$\ast$$\ast$\-G\-U\-I Frontend--I\-D\-Es$\ast$$\ast$}
+
+{\itshape Note\-: This option allows the user to run the G\-U\-I frontend only. It does not include the simulators or other modules. This was tested on the Net\-Beans I\-D\-E.} Install an I\-D\-E of your choice. Go to an apropriate location and run\-: ``` git clone \href{https://github.com/DeepBlue14/sensor-admin.git}{\tt https\-://github.\-com/\-Deep\-Blue14/sensor-\/admin.\-git} ```
+
+
+\begin{DoxyItemize}
+\item Run I\-D\-E
+\item Open {\ttfamily sensor\-\_\-admin\-\_\-\-N\-B}
+\item Build \& Run
+\end{DoxyItemize}
+
+{\itshape This project has {\bfseries O\-N\-L\-Y} been tested on the Net\-Beans I\-D\-E. If you are using an I\-D\-E that cannot process C\-Make files, you may have to manually link against the dependencies (this is N\-O\-T nessisary for Net\-Beans)\-:} ``` Qt\-Core Qt\-Gui Qt\-Widgets Q\-Network Qt\-Open\-G\-L Qt\-Sql Qt\-Xml
+
+boost\-\_\-system boost\-\_\-filesystem boost\-\_\-regex qjson Q\-G\-L\-Viewer sqlite3 ```
+
+\subparagraph*{$\ast$$\ast$\-Entire Project$\ast$$\ast$}
+
+Set up a R\-O\-S workspace\-: ``` mkdir -\/p $\sim$/se\-\_\-ws/src cd $\sim$/se\-\_\-ws catkin\-\_\-init\-\_\-workspace catkin\-\_\-make ```
+
+Clone the package\-: ``` cd $\sim$/se\-\_\-ws/src git clone \href{https://github.com/DeepBlue14/sensor-admin.git}{\tt https\-://github.\-com/\-Deep\-Blue14/sensor-\/admin.\-git} cd $\sim$/se\-\_\-ws source devel/setup.\-bash catkin\-\_\-make ```
+
+\paragraph*{$\ast$$\ast$\-Execution$\ast$$\ast$}
+
+\subparagraph*{$\ast$$\ast$1) Individual Nodes$\ast$$\ast$}
+
+Frontend\-: ``` roscore rosrun app\-\_\-node main ```
+
+Speech responsive node\-: ``` roslaunch speech\-\_\-node voice\-\_\-nav\-\_\-commands.\-launch rosrun sound\-\_\-play soundplay\-\_\-node.\-py rosrun speech\-\_\-node \hyperlink{class_manage_node_status}{Manage\-Node\-Status} ```
+
+\subparagraph*{$\ast$$\ast$2) Launch Files$\ast$$\ast$}
+
+$\ast$(not yet implimented)$\ast$ ```
+
+```
+
+\subparagraph*{$\ast$$\ast$3) Simulations$\ast$$\ast$}
+
+There are several sensor simulations.
+
+Accelerometer simulator will publish {\ttfamily sensor\-\_\-msgs/\-Imu} to {\ttfamily /accelerometer/imu/sim}. It will also print the linear acceleration x field\-: ``` rosrun sensor\-\_\-node Accelerometer\-Sim ```
+
+Image data\-: ``` rosrun sensor\-\_\-node Image\-Sim ```
+
+Point\-Cloud2\-: ``` rosrun sensor\-\_\-node Point\-Cloud2\-Sim ```
+
+Magnetometer\-: ``` rosrun sensor\-\_\-node Magnetometer\-Sim ``` 

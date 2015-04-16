@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "QT_CORE_LIB;QT_DEBUG;QT_GUI_LIB;QT_OPENGL_LIB;QT_SQL_LIB;QT_XML_LIB ~~~ /usr/include/qt4;/usr/include/qt4/QtOpenGL;/usr/include/qt4/QtGui;/usr/include/qt4/QtXml;/usr/include/qt4/QtSql;/usr/include/qt4/QtCore ~~~  ~~~ FALSE ~~~ ")

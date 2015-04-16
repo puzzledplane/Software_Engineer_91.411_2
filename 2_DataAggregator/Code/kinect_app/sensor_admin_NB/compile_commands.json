@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/main.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/main.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/main.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/AddDeviceGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/AddDeviceGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/AddDeviceGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/AddUserGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/AddUserGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/AddUserGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/CenterGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/CenterGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/CenterGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/DeviceAbstractGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/DeviceAbstractGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/DeviceAbstractGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/DevicesGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/DevicesGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/DevicesGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/HelpGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/HelpGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/HelpGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/HistoryGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/HistoryGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/HistoryGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/LoginGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/LoginGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/LoginGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/MasterGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/MasterGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/MasterGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/Menu.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/Menu.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/Menu.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/ModifyDeviceGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ModifyDeviceGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ModifyDeviceGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/ModifyUserGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ModifyUserGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ModifyUserGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/OpeningGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/OpeningGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/OpeningGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/ResultsGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ResultsGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ResultsGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/SplashGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/SplashGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/SplashGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/UserAbstractGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/UserAbstractGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/UserAbstractGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/UsersGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/UsersGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/UsersGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/VideoGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/VideoGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/VideoGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/src/ViewUserGui.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ViewUserGui.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/src/ViewUserGui.cpp"
+},
+{
+  "directory": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB",
+  "command": "/usr/bin/g++   -DQT_CORE_LIB -DQT_DEBUG -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_XML_LIB -g3 -gdwarf-2 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtXml -isystem /usr/include/qt4/QtSql -isystem /usr/include/qt4/QtCore    -o CMakeFiles/main.dir/main_automoc.cpp.o -c /home/james/se_ws/src/sensor_admin/sensor_admin_NB/main_automoc.cpp",
+  "file": "/home/james/se_ws/src/sensor_admin/sensor_admin_NB/main_automoc.cpp"
+}
+]

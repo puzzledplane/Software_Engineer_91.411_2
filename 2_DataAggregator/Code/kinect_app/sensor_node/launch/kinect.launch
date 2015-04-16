@@ -1,0 +1,14 @@
+<!---*- xml -*- -->
+
+<launch>
+    <node name="Image"
+	  pkg="sensor_node"
+	  type="Image"
+	  required="true"
+	  output="screen" />
+    <node name="PointCloud2"
+	  pkg="sensor_node"
+	  type="PointCloud2"
+	  required="true"
+	  output="screen" />
+</launch>

@@ -1,0 +1,9 @@
+<!---*- xml -*- -->
+
+<launch>
+    <node name="main"
+	  pkg="app_node"
+	  type="main"
+	  required="true"
+	  output="screen" />
+</launch>
